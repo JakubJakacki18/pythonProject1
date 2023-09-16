@@ -12,15 +12,6 @@ Functions:
     new_client_sign_up(**kwargs) - dodaje nowego klienta, zwraca listę z df_of_customers i df_of_addresses
 
 """
-# 3. Moduł obsługi klienta zawierający 4 funkcje
-## funkcja 1: rejestracja nowego klienta lub usuwanie danych klienta
-## funkcja 2: dodawanie (przez administratora) danych
-## nowego klienta do bazy tj. do pliku customer.csv i address.csv
-## Klient podaje swoje dane, nadawany jest klientowi losowy numer ID (3 cyfry))
-## w folderze DATABASE tworzony jest plik tekstowy (nazwa pliku to ID klienta)
-## do którego będą zapisywane dane wypożyczonej przez klienta książki oraz
-## data wypożyczenia a potem zwrotu książki
-## funkcja 3: usuwanie danych klienta opcje: względem ID lub NAME
 import random
 import os
 import pandas as pd
